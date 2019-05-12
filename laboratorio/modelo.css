@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+
+header{
+    width: 100%;
+    background-color: darkred;
+    height: 70px;
+}
+.ancho{
+    width: 95%;
+    height: 70px;
+    margin: auto;
+}
+.logo{
+    width: 30%;
+    height: 70px;
+    float: left;
+}
+.logo p a{
+    color: #ffffff;
+    font-size: 40px;
+    padding-top: 10px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: diplo;
+}
+nav{
+    width: 70%;
+    height: 70px;
+    float: left;
+    text-align: right;
+    padding-top: 24px;
+    box-sizing: border-box;
+}
+nav ul li{
+    display: inline;
+}
+nav ul li a{
+    color: #ffffff;
+    font-size: 13px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: press;
+}
+
+nav ul li a:hover{
+    color: lightblue;
+}
+.ancho2{
+    width: 1200px;
+    height: 730px;
+    margin: auto;
+}
+.ancho3{
+   
+    width: 100%;
+    box-sizing: border-box;
+}
+.card{
+    
+    
+    box-sizing: border-box;
+}
+.card2{
+    position: absolute;
+    left: 450px;
+    background-color: antiquewhite;
+    box-sizing: border-box;
+}
+.card3{
+    position: absolute;
+    left: 900px;
+    background-color: antiquewhite;
+    box-sizing: border-box;
+}
+.vamos{
+    font-family: moda;
+    color: darkcyan;
+    text-align: center;
+}
+button{
+    text-align: center;
+    float: center;
+    padding: auto;
+    position: absolute;
+    left: 500px;
+    
+}
+.row{
+    color: #ffffff;
+    position: relative;
+    top: 100px;
+}
+@font-face{
+    font-family: press;
+    src: url(fuentes/PressStart2P-Regular.ttf);
+    font-family: diplo;
+    src: url(fuentes/Diplomata-Regular.ttf);
+    font-family: moda;
+    src: url(fuentes/Modak-Regular.ttf);
+}
